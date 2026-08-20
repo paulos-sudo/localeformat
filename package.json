@@ -1,0 +1,28 @@
+{
+  "name": "localeformat",
+  "version": "0.1.0",
+  "description": "Verified, CLDR-versioned locale formatting API — x402-payable",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/core.test.mjs",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "@coinbase/x402": "^2.1.0",
+    "@x402/core": "^2.23.0",
+    "@x402/evm": "^2.23.0",
+    "@x402/express": "^2.23.0",
+    "express": "^5.2.1"
+  }
+}
